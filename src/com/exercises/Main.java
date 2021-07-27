@@ -63,6 +63,7 @@ public class Main {
         System.out.printf("flags example : %20.2f", 11200223.1415);
 */
 
+        /*
         Car myCar = new Car();
         System.out.println(myCar.color);
         myCar.drive();
@@ -71,7 +72,40 @@ public class Main {
         Car secondCar = new Car();
         System.out.println(myCar.model);
         secondCar.drive();
-        secondCar.brake();
+        secondCar.brake();*/
+
+        Human humanOne = new Human(
+                "David",
+                31,
+                70.5
+        );
+
+        Human humanTwo = new Human(
+                "Sebastian",
+                10,
+                40.3
+        );
+
+        //humanOne.drink();
+        //humanTwo.eat();
+
+       // DiceRoller dice = new DiceRoller();
+       // dice.rollWithGlobalVariables();
+
+
+        Pizza americanPizza = new Pizza(
+                "thin",
+                "tomato",
+                "mozzarella",
+                "jam"
+        );
+
+        Pizza cheesePizza = new Pizza(
+                "thick",
+                "tomato",
+                "cheese"
+        );
+
 
 
 
