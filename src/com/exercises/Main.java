@@ -188,7 +188,15 @@ public class Main {
         //Vehicle vehicle = new Vehicle();
        // Car car = new Car("toyota");
 
+        PrivateCar car = new PrivateCar(
+                "tesla",
+                "v10",
+                2021
+        );
 
+        System.out.println(car.getMake());
+        car.setYear(2022);
+        System.out.println(car.year());
 
     }
 
