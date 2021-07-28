@@ -18,7 +18,7 @@ public class PrivateCar {
     public String getModel(){
         return this.model;
     }
-    public  int year(){
+    public  int getYear(){
         return this.year;
     }
     public void setMake(String make){
@@ -29,5 +29,15 @@ public class PrivateCar {
     }
     public  void setYear(int year){
         this.year = year;
+    }
+
+    public void copy(PrivateCar car){
+        this.setMake(car.getMake());
+        this.setModel(car.getModel());
+        this.setYear(car.getYear());
+    }
+
+    PrivateCar(PrivateCar car){
+        this.copy(car);
     }
 }

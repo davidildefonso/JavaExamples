@@ -1,7 +1,11 @@
 package com.exercises;
 import javax.swing.JOptionPane;
+import java.beans.PropertyVetoException;
+import java.nio.channels.ByteChannel;
 import java.util.Random;
 import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -188,15 +192,111 @@ public class Main {
         //Vehicle vehicle = new Vehicle();
        // Car car = new Car("toyota");
 
+        /*
         PrivateCar car = new PrivateCar(
                 "tesla",
                 "v10",
                 2021
-        );
+        );*/
 
+       /* PrivateCar carTwo = new PrivateCar(
+                "Ford",
+                "loco",
+                2019
+        );*/
+
+        //System.out.println(car.getMake());
+        //car.setYear(2022);
+        //System.out.println(car.year());
+
+        //carTwo.copy(car);
+
+
+        /*
+        PrivateCar carTwo = new PrivateCar(car);
+
+        System.out.println(car);
         System.out.println(car.getMake());
-        car.setYear(2022);
-        System.out.println(car.year());
+        System.out.println(car.getModel());
+        System.out.println(car.getYear());
+        System.out.println(carTwo);
+        System.out.println(carTwo.getMake());
+        System.out.println(carTwo.getModel());
+        System.out.println(carTwo.getYear());
+*/
+
+/*
+        Rabbit rabbit = new Rabbit();
+        rabbit.flee();
+
+        Hawk hawk = new Hawk();
+        hawk.hunt();
+
+        Fish fish = new Fish();
+        fish.hunt();
+        fish.flee();
+*/
+
+
+        /*
+        Car car = new Car("volvo");
+        Bicycle bike = new Bicycle();
+        Boat boat = new Boat();
+
+        Vehicle[] racers = {car, bike, boat};
+        for (Vehicle racer : racers) {
+            racer.go();
+        }
+*/
+
+
+        /*
+        Scanner scanner = new Scanner(System.in);
+        Animal animal;
+
+        System.out.println("What animal " +
+                "do you want?");
+        System.out.println("1: dog, 2: cat");
+        int choice = scanner.nextInt();
+
+        if(choice == 1){
+            animal = new Dog();
+        }else if(choice == 2){
+            animal = new Cat();
+        }else{
+            animal = new Animal();
+        }
+        animal.speak();
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 

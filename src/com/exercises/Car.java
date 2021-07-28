@@ -11,6 +11,10 @@ public class Car extends  Vehicle{
         this.make = make;
     }
 
+    void go(){
+        System.out.println("The car is moving");
+    }
+
     void drive(){
         System.out.println("You drive" +
                 " the car");
