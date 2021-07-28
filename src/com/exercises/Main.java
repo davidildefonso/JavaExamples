@@ -2,9 +2,11 @@ package com.exercises;
 import javax.swing.JOptionPane;
 import java.beans.PropertyVetoException;
 import java.nio.channels.ByteChannel;
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.io.File;
 
 public class Main {
 
@@ -271,6 +273,49 @@ public class Main {
 */
 
 
+        /*
+        Scanner scanner = new Scanner(System.in);
+        try {
+
+            System.out.println("enter a whole" +
+                    " number to divide");
+            int num = scanner.nextInt();
+
+            System.out.println("enter a whole " +
+                    "number to divide by");
+            int divisor = scanner.nextInt();
+
+            int integerPart = num / divisor;
+
+            System.out.println("result " +
+                    integerPart);
+
+        }catch(ArithmeticException e){
+            System.out.println("You cant " +
+                    "divide by zero! error: " +
+                    e);
+        }catch(InputMismatchException e){
+            System.out.println("Please enter" +
+                    " a whole number! " +
+                    "error: " + e);
+        }catch(Exception e){
+            System.out.println("something " +
+                    "went wrong! error: " + e);
+        }finally{
+            scanner.close();
+        }
+
+*/
+
+        File file = new File(
+                "temp.txt");
+        System.out.println(file.exists());
+        System.out.println(
+                file.exists()
+                        ? "The file exists"
+                        : "the file doesnt exist"
+        );
+
 
 
 
@@ -311,4 +356,8 @@ public class Main {
     static void hello(String name){
         System.out.println("Hello "+ name +"! ");
     }
+
+
+
+
 }

@@ -1,0 +1,257 @@
+ssh root@68.183.106.90
+
+new user: webadmin
+pass: Sebansha9!
+
+ssh webadmin@68.183.106.90
+
+webadmin:
+    full name: david ildefonso
+    room number: 101
+    phone: 999
+    home phome: 999999
+    other: i am the only allowed user
+
+**************************************************************
+maria db username:
+
+username: dbadmin  (dbadmin@localhost)
+
+pass: mamamia1234+
+
+
+
+********************************************************************************
+CONNECT SSHFS
+
+sudo mkdir /mnt/webadmin
+sudo chown davidildefonso webadmin/
+sshfs webadmin@68.183.106.90:/ /mnt/webadmin -o IdentityFile=/home/davidildefonso/.ssh/id_rsa
+sudo umount /mnt/webadmin
+
+
+*******************************************************}
+
+
+
+
+__/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+ _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+  _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+   _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+    _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+     _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+      _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+       _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+        _\///______________\///______________\///__\///////////////__
+
+///////****************************************
+
+const regex1 = /([\wáóéíúü,]+[\.\s$]*){10}(?=\s)/g
+const str1 = "atención la descripción de los síntomas, revisó detenidamente las zonas afectadas y explicó detalladamente el problema y el uso de los medicamentos que recetó"
+let array1;
+let result = []
+while ((array1 = regex1.exec(str1)) !== null) {
+  result.push(array1[0])
+  // expected output: "Found foo. Next starts at 9."
+  // expected output: "Found foo. Next starts at 19."
+}
+console.log(result)
+
+///////****************************************
+
+<div class="wrapper">
+   <div  id="box-slider__1" >
+      <ul id="lista-slider__1" >
+          <li class="slider-items__1" id="img-slider__1" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__1_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__2" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__2_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__3" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__3_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__4" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__4_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__5" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__5_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__6" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__6_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__7" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__7_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__8" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__8_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__9" ><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__9_1  "> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU"  alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__10"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__10_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__11"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__11_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__12"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__12_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__13"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__13_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__14"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__14_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__15"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__15_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__16"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__16_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__17"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__17_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__18"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__18_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__19"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__19_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__20"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__20_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__21"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__21_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__22"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__22_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R8aAuEPgHf-PdXc4uSJuA0ETrWUszJHbGQ&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__23"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__23_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvVvp177JgnHAwYWeIKGUdY4X6LQVJ49pbw&usqp=CAU" alt="" class=""></div></li>
+          <li class="slider-items__1" id="img-slider__24"><div class="slider-img__1 div-imgs__1" id="boxinbox-slider__24_1 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa8mz1G1dQhMM1fRduiMaX-jGG2G-B0rAGQ&usqp=CAU" alt="" class=""></div></li>
+          </ul>
+          
+          
+  <ul class="flex-direction-nav">
+
+        <li class="invisible"><a class="invisible__1" href="#"></a></li>
+
+        <li class="flex-nav-prev__1"><button class="flex-prev__1" onclick="avanzarFoto1(-1)" >
+          &#10094;</button></li>
+        <li class="flex-nav-next__1"><button class="flex-next__1" onclick="avanzarFoto1(1)" >
+          &#10095;</button></li>
+        </ul>
+        
+        
+        <div>
+              <span class="li-control-nav__1 slider-none__1" id="li-control-nav__1" onclick="posicion1(1)" class="posicion__1 .posicion__a1">1</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__2" onclick="posicion1(2)" class="posicion__1 .posicion__a1">2</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__3" onclick="posicion1(3)" class="posicion__1 .posicion__a1">3</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__4" onclick="posicion1(4)" class="posicion__1 .posicion__a1">4</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__5" onclick="posicion1(5)" class="posicion__1 .posicion__a1">5</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__6" onclick="posicion1(6)" class="posicion__1 .posicion__a1">6</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__7" onclick="posicion1(7)" class="posicion__1 .posicion__a1">7</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__8" onclick="posicion1(8)" class="posicion__1 .posicion__a1">8</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__9" onclick="posicion1(9)" class="posicion__1 .posicion__a1">9</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__10" onclick="posicion1(10)" class="posicion__1 .posicion__a1">10</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__11" onclick="posicion1(11)" class="posicion__1 .posicion__a1">11</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__12" onclick="posicion1(12)" class="posicion__1 .posicion__a1">12</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__13" onclick="posicion1(13)" class="posicion__1 .posicion__a1">13</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__14" onclick="posicion1(14)" class="posicion__1 .posicion__a1">14</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__15" onclick="posicion1(15)" class="posicion__1 .posicion__a1">15</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__16" onclick="posicion1(16)" class="posicion__1 .posicion__a1">16</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__17" onclick="posicion1(17)" class="posicion__1 .posicion__a1">17</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__18" onclick="posicion1(18)" class="posicion__1 .posicion__a1">18</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__19" onclick="posicion1(19)" class="posicion__1 .posicion__a1">19</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__20" onclick="posicion1(20)" class="posicion__1 .posicion__a1">20</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__21" onclick="posicion1(21)" class="posicion__1 .posicion__a1">21</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__22" onclick="posicion1(22)" class="posicion__1 .posicion__a1">22</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__23" onclick="posicion1(23)" class="posicion__1 .posicion__a1">23</span>
+            <span class="li-control-nav__1 slider-none__1" id="li-control-nav__24" onclick="posicion1(24)" class="posicion__1 .posicion__a1">24</span>
+</div>
+
+.flex-prev__1{ 
+  background-color: rgb(48, 44, 44); 
+  font-size: 40px; 
+  color: #fff; 
+  padding-left: 60%; 
+  padding-right: 60%; 
+  border-radius: 10px; 
+  justify-content: center; 
+  flex-direction: row; 
+  border: 4px solid #a0a0a0; 
+  position: relative; 
+  right: 60px; 
+  bottom: 60px; 
+  cursor: pointer; 
+} 
+
+#lista-slider__1{ padding-left: 0; }
+
+.img-items__1{ 
+  display: inline-block; 
+  list-style-type: none; 
+  border: 10px double #3f0202 ; 
+}
+
+.slider-items__1{ display: flex;
+
+}
+
+.li-control-nav__1{ 
+  display:none; 
+  cursor: pointer; 
+  position: relative; 
+ 
+}
+
+#box-slider__1{ 
+  grid-column: 1/3; 
+  grid-row:1/1; 
+  overflow: hidden; 
+  width: 34%;
+}
+
+.wrapper{ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px; 
+  grid-auto-rows: minmax(200px, auto); 
+  margin-left: 6%;
+
+}
+
+img{
+  height: 100px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.flex-direction-nav li{
+   list-style-type:none
+}
+
+.active{
+ background: red;
+}
+let indice1 = 1;
+     muestrario1( indice1 );
+        
+function avanzarFoto1(n1){
+    muestrario1( indice1+=n1 );
+}
+    
+function posicion1(n1){
+    muestrario1( indice1=n1 );
+}
+
+
+
+/*setInterval(function tiempo1(){
+          muestrario1( indice1+=1 )
+},1000);*/
+
+
+function muestrario1(n1){
+  
+     let ite1;
+     let imagenes1 = document.getElementsByClassName('slider-img__1');
+     let controlNavImgs1 = document.getElementsByClassName('li-control-nav__1');
+      
+      
+     
+     if(n1 > imagenes1.length ){
+         indice1 = 1
+     }
+     if(n1 < 1){
+         indice1 = imagenes1.length;
+     }
+     
+     showPaginationControls(controlNavImgs1, indice1)
+     
+     
+     for(ite1 = 0; ite1 < imagenes1.length ; ite1++){
+         imagenes1[ite1].style.display = 'none';
+     }
+     for(ite1 = 0; ite1 < controlNavImgs1.length ; ite1++){
+     
+        controlNavImgs1[ite1].className =       controlNavImgs1[ite1].className.replace(" active", "");
+     }
+ 
+     imagenes1[indice1-1].style.display = ' block';
+     controlNavImgs1[indice1 -1].className += ' active';
+     
+ }
+ 
+ 
+ function showPaginationControls(elements, activeElement){ 
+  if(activeElement > 20)  showControlsBetween(21,24)  
+  else if(activeElement > 10) showControlsBetween(11,20)
+  else if (activeElement > 0) showControlsBetween(1,10)    
+    
+  function showControlsBetween(from, to){
+    for(let i=0; i< elements.length; i++){
+        if(i >= from - 1 && i < to ) elements[i].style.display = "inline-flex"
+        else elements[i].style.display = "none"
+     }
+   }
+ }
+ 
