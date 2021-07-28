@@ -63,8 +63,11 @@ public class Main {
         System.out.printf("flags example : %20.2f", 11200223.1415);
 */
 
-        /*
+/*
         Car myCar = new Car();
+        System.out.println(myCar.toString());
+
+        /*
         System.out.println(myCar.color);
         myCar.drive();
         myCar.brake();
@@ -74,6 +77,7 @@ public class Main {
         secondCar.drive();
         secondCar.brake();*/
 
+        /*
         Human humanOne = new Human(
                 "David",
                 31,
@@ -85,14 +89,14 @@ public class Main {
                 10,
                 40.3
         );
-
+*/
         //humanOne.drink();
         //humanTwo.eat();
 
        // DiceRoller dice = new DiceRoller();
        // dice.rollWithGlobalVariables();
 
-
+/*
         Pizza americanPizza = new Pizza(
                 "thin",
                 "tomato",
@@ -105,8 +109,84 @@ public class Main {
                 "tomato",
                 "cheese"
         );
+*/
+
+        /*
+        Food[] refrigerator = new Food[3];
+        refrigerator[0] = new Food("milk bottle"
+                , 3);
+        refrigerator[1] = new Food(
+                "hamburguer",
+                12
+        );
+        refrigerator[2] = new Food(
+                "lettuce",
+                3
+        );
+*/
+        //for (Food food : refrigerator) {
+         //   System.out.println(food.name);
+        //}
 
 
+        /*
+        Garage garage = new Garage();
+        Car car1 = new Car("volvo");
+        Car car2 = new Car("tesla");
+        Car car3 = new Car("BMW");
+
+        garage.park(car1);
+        garage.park(car2);
+        garage.park(car3);
+
+         */
+
+        /*
+        Friend friend1 = new Friend("Amy");
+        Friend friend2 = new Friend("Bob");
+        Friend friend3 = new Friend(
+                "Goolkuv");
+        System.out.println(Friend.numberOfFriends);
+        Friend.displayFriends();
+
+         */
+
+        /*
+        Bicycle bike = new Bicycle();
+        bike.go();
+        System.out.println(bike.speed);
+        Car car = new Car(
+                "Volvo"
+        );
+        car.stop();
+        System.out.println(car.speed);
+*/
+/*
+        Animal animal1 = new Animal();
+        animal1.speak();
+        Dog dog1 = new Dog();
+        dog1.speak();
+*/
+/*
+        Hero batman = new Hero("batman",
+                42,
+                "money");
+        Hero superman = new Hero(
+                "Superman",
+                9900,
+                "strength"
+        );
+        Person person1 = new Person(
+                "David",
+                31
+        );
+
+        System.out.println(person1.toString());
+        System.out.println(batman.toString());
+       */
+
+        //Vehicle vehicle = new Vehicle();
+       // Car car = new Car("toyota");
 
 
 
